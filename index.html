@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
+
 		<meta charset="utf-8">
 
 		<meta name="description" content="A Christmas tree built out of form elements." />
@@ -9,25 +11,38 @@
 		<meta http-equiv="X-UA-Compatible" content="chrome=1">
 
         <title>张应甜的圣诞树</title>
-
+		
 		<link href="css/domtree.css" rel="stylesheet" media="screen" />
 
 		<link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
-
+		<!-- <audio controls="controls" autoplay="autoplay">
+			<source src="./cm.mp3" type="audio/mp3" />
+			<source src="./cm.mp3" type="audio/ogg" />
+		  Your browser does not support this audio format.
+		  </audio> -->
     </head>
     <body>
     	<header>
-    		<h1>张应甜yao的圣诞树</h1>
-
+    		<h1>张英甜yao的圣诞树</h1>
     		<div class="share">
 				<div class="plusone">
 					<div class="g-plusone" data-size="medium"></div>
 				</div>
     		</div>
     	</header>
-
+		<audio controls="controls" autoplay="autoplay" hidden="true">
+			<source src="cm.ogg" type="audio/ogg" />
+			<source src="cm.mp3" type="audio/mpeg" />
+		  Your browser does not support the audio element.
+		  </audio>
     	<div class="tree"></div>
-
+		
+		<!-- <audio autoplay="true" controls="controls" loop="loop" preload="auto" 
+            	src="chritmstee.mp3 ">
+      		你的浏览器版本太低，不支持audio标签
+	</audio> -->
+		<!-- <embed height="100" width="100" src="./cm.mp3"></embed> -->
+		<!-- <object height="100" width="100" data="./cm.mp3" autoplay="true"></object> -->
 		<script src="js/domtree.js"></script>
 
 		<!-- Third party tracking and sharing code below -->
